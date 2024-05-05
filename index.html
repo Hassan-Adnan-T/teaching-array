@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Array Methods Visualizer</h1>
+        <p>Visual demonstrations of the most common array methods.</p>
+      </header>
+      
+      <!-- main -->
+      <main class="maincontent">
+        
+        <!--   the visualized array -->
+        <div id="arrayContainer">
+          <ul>
+            <li class="listItem show">Meat<div>[0]</div></li>
+            <li class="listItem show">Eggs<div>[1]</div></li>
+            <li class="listItem show">Juice<div>[2]</div></li>
+            <li class="listItem show">Vegetables<div>[3]</div></li>
+          </ul>
+        </div>
+        
+        <!-- array controls -->
+        <div id="controls">
+          <button id="unshift"> .unshift()  </button>
+          <button id="shift">   .shift()    </button>
+          <button id="push">    .push()     </button>
+          <button id="pop">     .pop()      </button>
+          <button id="reverse"> .reverse()  </button>
+          <button id="sort">    .sort()     </button>
+          <button id="splice">.splice()</button>
+          <button id="map">.map()</button>
+          <button id="filter">  .filter()   </button>
+          <button id="reduce">  .reduce()   </button> <!-- Add reduce button -->
+        </div>
+
+        <div id="mappedArrayContainer">
+            <ul id="mappedArray"></ul>
+          </div>
+
+          <div id="filteredArrayContainer">
+            <ul id="filteredArray"></ul>
+          </div>
+
+          <div id="reducedValueContainer">
+            <ul id="reducedValue"></ul>
+          </div>
+
+      </main>
+</body> 
+<script src="script.js"></script>
+</html>
